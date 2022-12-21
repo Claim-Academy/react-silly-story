@@ -1,5 +1,13 @@
+import Form from "./components/Form";
+import Heading from "./components/Heading";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Heading message="Hello Claim" />
+      <Form />
+    </>
+  );
 }
 
 export default App;
